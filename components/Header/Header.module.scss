@@ -1,0 +1,68 @@
+@import '../../styles/colors.scss';
+
+.header {
+  .navbar {
+    padding: 20px 0;
+
+    .flex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .info {
+        h4 {
+          font-size: 24px;
+
+          span {
+            color: $clr-primary;
+          }
+        }
+      }
+    }
+  }
+
+  .hero {
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .textos {
+        text-align: center;
+        margin-top: 150px;
+        
+        h4 {
+          font-size: 85px;
+          font-weight: 700;
+          margin: 0;
+
+          span {
+            color: $clr-primary;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    .navbar {
+      .flex {
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+
+  .hero {
+    .textos {
+      margin-top: 40px !important;
+
+      h4 {
+        font-size: 45px !important;
+      }
+    }
+  }
+}

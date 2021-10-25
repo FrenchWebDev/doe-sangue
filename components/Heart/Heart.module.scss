@@ -1,0 +1,31 @@
+.heart {
+  margin-top: 350px;
+  width: 100%;
+
+  .svg {
+    padding: 50px;
+    
+    .content {
+      display: flex;
+      justify-content: center !important;
+      
+      svg {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heart {
+    margin-top: 240px;
+
+    .svg {
+      .content {
+        svg {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

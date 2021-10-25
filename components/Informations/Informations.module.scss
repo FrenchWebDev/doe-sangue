@@ -1,0 +1,37 @@
+@import '../../styles/colors.scss';
+
+.informations {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+    .item {
+      max-width: 652px;
+      text-align: center;
+      margin: 30px 0;
+
+      h4 {
+        font-size: 48px;
+        font-weight: 700;
+        margin: 0;
+
+        @media screen and (max-width: 768px) {
+          font-size: 24px;
+        }
+
+        span {
+          color: $clr-primary;
+        }
+      }
+
+      p {
+        @media screen and (max-width: 768px) {
+           font-size: 14px;
+        }
+      }
+    }
+  }
+}
