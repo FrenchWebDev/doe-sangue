@@ -15,7 +15,7 @@ const Header: NextPage = () => {
             </div>
             <div className={styles.info}>
               <h4>
-                #PARTIUDOAR<span>SANGUE</span>
+                #VAMOSDOAR<span>SANGUE</span>
               </h4>
             </div>
           </div>
